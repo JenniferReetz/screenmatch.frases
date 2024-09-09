@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FraseControler {
     @Autowired
-    private fraseService servico;
+    private FraseService servico;
 
     @GetMapping("/series/frases")
     public FraseDTO obterFraseAleatoria(){
